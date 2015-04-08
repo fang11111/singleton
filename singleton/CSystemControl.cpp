@@ -9,11 +9,11 @@
 #include "CSystemControl.h"
 CSystemControl* CSystemControl::Instance()
 {
-    
-    if (_instance == NULL) {
-        _instance = new CSystemControl;
-        
-    }
+//    
+//    if (_instance == NULL) {
+//        _instance = new CSystemControl;
+//        
+//    }
     return _instance;
     
 }
